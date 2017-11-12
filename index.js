@@ -25,3 +25,15 @@ class BoardMember {
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
 }
+
+class Ceo{
+  constructor(name, training, homeState){
+    this.name=name;
+    this.training=training;
+    this.homeState=homeState;
+  }
+
+  hireEmployee(){
+    return 'Welcome aborad'
+  }
+}
