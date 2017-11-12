@@ -27,7 +27,7 @@ class BoardMember {
 }
 
 class Ceo{
-  constructor(name, training, homeState){
+  constructor(name, homeState, training){
     this.name=name;
     this.training=training;
     this.homeState=homeState;
